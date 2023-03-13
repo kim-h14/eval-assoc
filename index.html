@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <!-- Bootstrap Stylesheet -->
+  <link href="bootstrap.css" rel="stylesheet">
+ 
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font families -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c28bc147bf.js" crossorigin="anonymous"></script>
+
+  <!-- META -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>No Planet B</title>
+</head>
+
+
+<body>
+
+  <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo.jpeg" class="brand-logo" alt="No Planet B logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Statistiques</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nos Évènements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Les bons gestes</a>
+            </li>
+            <li><a class="nav-link nav-text" href="#">Contactez nous</a></li>
+            <li><a class="nav-link">
+              <i class="fa-solid fa-hand-holding-heart">
+                Faire un Don
+              </i>
+            </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    <!--Heading -->
+  <section id="header" class="main-heading">
+    <div class="">
+        <h1 class="primary-heading">Nous n'avons pas de planète B</h1>
+        <p class="primary-text">Tous les jours notre environment souffre, des écosystèmes disparaissent,
+          de plus en plus d'espèces sont en voix d'extinction.<br> 
+          Protégeons nos forêts, nos océans, nos animaux et notre planète.
+        </p>
+        <button 
+            type="button" 
+            class="donate-button btn btn-outline-light btn-lg">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+            Donnation
+          </button>
+          <button 
+            type="button"  
+            class="volunteer-button btn btn-outline-light btn-lg">
+            <i class="fa-solid fa-handshake-angle"></i>
+            Bénévolat
+          </button>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="brown-section" id="stats">
+    <div class="row">
+      <div class="main-stats-box col-lg-3">
+        <h4 class="stats-highlight">Des écosystèmes tropicaux et océaniques sains sont
+           indispensables au maintien d'une planète en bonne santé.</h4>
+      </div>
+      <div class="stats-box col-lg-3">
+        <h3 class="stats-title">23%</h3>
+        <p>Les forêts tropicales de la planète sont capables de fournir 23 % des mesures
+           d'atténuation du changement climatique nécessaires d'ici à 2030.</p>
+      </div>
+      <div class="stats-box col-lg-3">
+        <h3 class="stats-title">99%</h3>
+        <p>On estime que 99 % des espèces de la forêt tropicale humide n'ont pas encore été étudiées.</p>
+      </div>
+      <div class="stats-box col-lg-3">
+        <h3 class="stats-title">50%</h3>
+        <p>De l'oxygène présent dans l'atmosphère est produit par les plantes marines.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get involved -->
+  <section class="" id="volunteering">
+    <h3 class="volunteering-heading">NOS ÉVÈNEMENTS À VENIR</h3>
+    <div id="volunteer-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/marche-climat.jpeg" class="volunteer-image" alt="Marche pour le climat">
+            <h2 class="volunteer-title">Marche pour le climat</h2>
+            <p class="volunteer-text">Rejoignez nous le 12 Juin 2023 lors d'une marche
+               pour le climat</br><em>Découvrez dans 
+              qu'elles villes seront organisé nos marches pour la planète.
+            </em></p>
+          <a href="#" class="btn btn-lg btn-outline-dark col-lg-12">Plus d'infos</a>
+        </div>
+        <div class="carousel-item">
+          <img src="images/plant-trees.jpeg" class="volunteer-image" alt="Plantation d'arbre">
+            <h2 class="volunteer-title">Un arbre pour un meilleur future.</h2>
+            <p class="volunteer-text">Consulter notre page évènements à venir pour découvrir la
+               prochaine journée de
+              bénévolat de plantation d'arbres la plus proche de chez vous.</br> <em>Plusieurs dates et 
+                lieux chaque mois.</em>
+            </p>
+          <a href="#" class="btn btn-lg btn-outline-dark col-12">Plus d'infos</a>
+        </div>
+        <div class="carousel-item">
+          <img src="images/cleanu-up.jpeg" class="volunteer-image" alt="Nettoyons nos plages">
+          <h2 class="volunteer-title">Nettoyons nos plages</h2>
+          <p class="volunteer-text">Chaque année nous organisons de grand évènement pour nettoyer
+             nos littoraux. </br>
+            <em>Découvrez nos évènements à venir près de chez vous ou de votre lieu de vacance.</em>
+          </p>
+        <a href="#" class="btn btn-lg btn-outline-dark col-12">Plus d'infos</a>
+      </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#volunteer-carousel" 
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#volunteer-carousel" 
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#volunteer-carousel" 
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Small Actions -->
+  <section class="..." id="small-actions">
+
+    <h2 class="actions-heading">Des petits gestes pour la planète</h2>
+    <p>Protégeons et améliorons l'environnement pour les générations futures.</p>
+
+    <div class="row">
+    <div class="actions-column col-lg-4 col-md-6">
+    <div class="card">
+      <div class="card-header">
+        <h3 class="actions-header"><i class="fa-duotone fa-recycle"></i></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-text"> 
+          <h2 class="actions-text">Faire des choix plus durables</h2>
+          <p>Dites non aux bouteilles, sacs, pailles et couvercles en plastique.</p>
+          <p>Optez pour des bocaux/bouteilles en verre ou des boîtes de conserve plutôt
+             que pour des bocaux/ bouteilles en plastique.</p>
+          <p>Évitez les fruits et légumes emballés dans du plastique.</p>
+          <p>Achetez des articles et des vêtements d'occasion.</p>
+          <p>Investissez dans une brosse à dents en bois/bambou.</p>
+          <p>Achetez un gobelet de voyage.</p></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="actions-column col-lg-4 col-md-6">
+    <div class="card">
+    <div class="card-header">
+      <h3 class="actions-header"><i class="fa-duotone fa-shoe-prints"></i></h3>
+    </div>
+    <div class="card-body">
+      <p class="card-text"> 
+        <h2 class="actions-text">Réduisez votre empreinte carbone</h2>
+        <p>Marcher davantage ou faire du vélo</p>
+        <p>Utiliser les transports publics</p>
+        <p>Consommer moins d'électricité</p>
+        <p>Gaspiller moins d'eau</p>
+        <p>Manger moins de viande</p>
+        <p>Acheter des produits locaux</p></p>
+    </div>
+  </div>
+  </div>
+    
+  <div class="actions-column col-lg-4">
+    <div class="card">
+      <div class="card-header">
+        <h3 class="actions-header"><i class="fa-regular fa-lightbulb-on"></i></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-text"> 
+          <h2 class="actions-text">Conserver l'énergie et les ressources naturelles</h2>
+          <p>Ne laissez pas les appareils électroménagers, les lumières ou l'eau couler
+            lorsqu'ils ne sont pas utilisés.</p>
+          <p>Arrêtez votre moteur lorsque vous êtes dans la circulation ou que vous attendez
+             à un passage à niveau.</p>
+          <p>Réfléchissez à deux fois avant de jeter quelque chose.</p>
+          <p>Planter des arbres</p>
+          <p>S'occuper d'un jardin communautaire</p></p>
+      </div>
+    </div>
+  </div>
+    
+  </div>
+  </section>
+
+  <!-- Footer -->
+
+<!-- Footer -->
+
+  <footer id="footer">
+    <div>
+      <i class="social-icons fa-brands fa-twitter"></i>
+      <i class="social-icons fa-brands fa-facebook"></i>
+      <i class="social-icons fa-brands fa-instagram"></i>
+      <i class="social-icons fa-solid fa-envelope"></i>
+    </div>
+
+    <p>© Copyright NoPlanetB</p>
+
+  </footer>
+
+</body>
+</html>

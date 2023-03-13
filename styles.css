@@ -1,0 +1,138 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* Nav Bar */
+
+.brand-logo {
+  width: 50px;
+  height: 50px;
+}
+.navbar-nav {
+  list-style-type: none;
+}
+
+.navbar-toggler{
+  /* margin-left: 90%; */
+  margin-bottom: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  float: left;
+}
+
+
+
+/* Header */
+#header {
+  color: #fff;
+  text-align: center;
+  z-index: inherit;
+}
+
+.primary-heading {
+  font-weight: 900;
+  height: 4rem;
+  line-height: 1.5;
+  padding-top: 3.5rem;
+  padding-bottom: 2rem;
+}
+
+.primary-text {
+  font-weight: 900;
+  height: 2rem;
+  line-height: 1.5;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.main-heading {
+  background-image: url('images/forest.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.donate-button, .volunteer-button {
+  margin: 5% 3% 5% 0;
+  color: #fff;
+} 
+
+
+/* Stats */
+
+#stats {
+  background-color: #E4D1B9;
+  padding: 5% 3% 5% 3%;
+  text-align: center;
+}
+
+.main-stats-box {
+  background-color: #BE8C63;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 4% 2% 2% 2%;
+  z-index: inherit;
+}
+
+.stats-box {
+  padding: 4% 2% 4% 2%;
+}
+
+.stats-title {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+}
+
+/* Volunteering */
+
+#volunteering {
+  text-align: center;
+  padding: 4% 2% 4% 2%;
+  background-color: #8FBDD3;
+}
+
+.volunteering-heading{
+  font-size: 700;
+  padding-bottom: 3%;
+}
+
+.volunteer-image {
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+}
+
+.volunteer-title{
+  padding-top: 2%;
+}
+
+.volunteer-text {
+  padding: 4% 2% 4% 2%;
+}
+
+/* Footer Section */
+
+#footer {
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 7% 15%;
+}
+
+.social-icons {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1rem;
+}
+
+
+/* @media screen and (max-width: 320px) {
+  
+} */
