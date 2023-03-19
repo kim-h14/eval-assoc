@@ -96,7 +96,7 @@ body {
 #volunteering {
   text-align: center;
   padding: 4% 2% 4% 2%;
-  background-color: #8FBDD3;
+  background-color: #EEE9DA;
 }
 
 .volunteering-heading{
@@ -105,7 +105,7 @@ body {
 }
 
 .volunteer-image {
-  border-radius: 50%;
+  border-radius: 24px;
   width: 15rem;
   height: 15rem;
 }
@@ -117,6 +117,31 @@ body {
 .volunteer-text {
   padding: 4% 2% 4% 2%;
 }
+
+.carousel-control-prev, .carousel-control-next {
+  filter: invert(100%);
+}
+
+/* Small Actions  */
+#small-actions {
+  text-align: center;
+  padding: 4% 2% 4% 2%;
+  background-color: #8FBDD3;
+}
+
+.actions-heading{
+  font-size: 2.5rem;
+}
+.actions-subheading {
+  font-size: 1.5rem;
+  padding: 2% 4% 6%;
+}
+
+
+.card {
+  background: linear-gradient(90deg, #93BFCF, #93BFCF);
+}
+
 
 /* Footer Section */
 
@@ -133,6 +158,11 @@ body {
 }
 
 
-/* @media screen and (max-width: 320px) {
-  
+/* @media (max-width: 320px) {
+  .main-stats-box {
+    background-color: #BE8C63;
+    justify-content: center;
+    line-height: 1.5;
+    z-index: 1;
+  }
 } */
