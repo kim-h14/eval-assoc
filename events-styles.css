@@ -28,7 +28,7 @@ body {
 
 
 .titles {
-  background-image: url('images/coral-loss-1.jpg');
+  background-image: url('images/forest.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -40,12 +40,13 @@ h1, h2 {
 }
 
 
-/* Events */
+/* Heading */
 
 .big-events-heading {
   padding-top: 10%;
   padding-bottom: 5%;
   text-align: center;
+  color: #ffffff;
 }
 
 .events-infos {
@@ -54,91 +55,13 @@ h1, h2 {
   text-align: center;
 }
 
+/* Event Cards */
 
-* {
-  box-sizing: border-box;
+.events-card img {
+  width: 100px;
+  height: 100px;
 }
 
-/* body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  background: #efecff;
-  background-size: 16px 16px;
-  font-family: "Euclid Circular A", "Poppins";
-} */
-
-#events-card {
-  margin-top: 10%;
-}
-.card {
-  display: flex;
-  align-items: center;
-  width: 75vw;
-  max-width: 650px;
-  padding: 50px 30px 50px 20px;
-  background: #ffffff;
-  border-radius: 24px;
-}
-
-.card img {
-  max-width: 280px;
-  width: 28vw;
-  height: 300px;
-  object-fit: cover;
-  margin-left: -60px;
-  margin-right: 30px;
-  border-radius: inherit;
-  box-shadow: 0 60px 40px rgb(0 0 0 / 8%);
-}
-
-.card h3 {
-  font-size: 22px;
-  margin-right: 30px;
-}
-
-.card h4 {
-  font-size: 16px;
-  font-weight: 400;
-  color: rgb(0 0 0 / 90%);
-}
-
-.card p {
-  font-size: 14px;
-  font-weight: 400;
-  color: rgb(0 0 0 / 70%);
-  margin-bottom: 24px;
-}
-
-.card button {
-  border: 0;
-  background: linear-gradient(90deg, #5448de, #5448de);
-  color: #f8f8f8;
-  font-family: inherit;
-  padding: 16px 26px;
-  font-size: 16px;
-  border-radius: 40px;
-}
-
-@media (width <= 740px) {
-  .card {
-    margin: 0 40px;
-    padding-left: 50px;
-    padding-right: 50px;
-    width: 100%;
-    text-align: center;
-    flex-direction: column;
-  }
-
-  .card h2 {
-    margin-right: 0;
-    font-size: 26px;
-  }
-
-  .card img {
-    margin: -100px 0 30px 0;
-    width: 100%;
-    max-width: 1000px;
-  }
+.events-card {
+  box-shadow: rgb(0 0 0 / 8%);
 }

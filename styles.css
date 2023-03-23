@@ -40,20 +40,23 @@ body {
   font-weight: 900;
   height: 4rem;
   line-height: 1.5;
-  padding-top: 3.5rem;
-  padding-bottom: 2rem;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  display: grid;
 }
 
 .primary-text {
   font-weight: 900;
+  font-size: large;
   height: 2rem;
   line-height: 1.5;
-  padding-top: 5rem;
-  padding-bottom: 2rem;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  display: grid;
 }
 
 .main-heading {
-  background-image: url('images/forest.jpeg');
+  background-image: url('images/fishes.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -63,8 +66,12 @@ body {
 .donate-button, .volunteer-button {
   margin: 5% 3% 5% 0;
   color: #fff;
+  position: relative;
 } 
 
+.btn-div {
+  padding-top: 3%;
+}
 
 /* Stats */
 
@@ -158,11 +165,3 @@ body {
 }
 
 
-/* @media (max-width: 320px) {
-  .main-stats-box {
-    background-color: #BE8C63;
-    justify-content: center;
-    line-height: 1.5;
-    z-index: 1;
-  }
-} */
