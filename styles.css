@@ -30,7 +30,11 @@ body {
 
 
 /* Header */
-#header {
+.main-heading {
+  background-image: url('images/fishes.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #fff;
   text-align: center;
   z-index: inherit;
@@ -38,35 +42,23 @@ body {
 
 .primary-heading {
   font-weight: 900;
-  height: 4rem;
   line-height: 1.5;
   padding-top: 3%;
   padding-bottom: 2%;
-  display: grid;
 }
 
 .primary-text {
   font-weight: 900;
   font-size: large;
-  height: 2rem;
   line-height: 1.5;
   padding-top: 5%;
   padding-bottom: 2%;
-  display: grid;
-}
-
-.main-heading {
-  background-image: url('images/fishes.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 
 .donate-button, .volunteer-button {
   margin: 5% 3% 5% 0;
   color: #fff;
-  position: relative;
 } 
 
 .btn-div {
@@ -108,13 +100,13 @@ body {
 
 .volunteering-heading{
   font-size: 700;
-  padding-bottom: 3%;
 }
 
 .volunteer-image {
-  border-radius: 24px;
-  width: 15rem;
-  height: 15rem;
+  /* border-radius: 25%; */
+  padding-bottom: 5%;
+  width: 20rem;
+  height: 25rem;
 }
 
 .volunteer-title{
@@ -127,6 +119,10 @@ body {
 
 .carousel-control-prev, .carousel-control-next {
   filter: invert(100%);
+}
+
+.carousel-item {
+  padding: 5% 15%;
 }
 
 /* Small Actions  */
@@ -165,3 +161,10 @@ body {
 }
 
 
+@media (max-width: 320px) {
+  .volunteer-image {
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+  }
+}
