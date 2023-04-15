@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@500;700;900&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/c28bc147bf.js" crossorigin="anonymous"></script>
 
   <!-- META -->
@@ -69,8 +69,8 @@
       nombreux évènements.
       </h1>
       <h2 class="events-infos">
-      Nous nous organisons plusieurs types d'évènements par mois, il y en a pour tous les goûts et 
-      pour tous les ages. 
+      Nous organisons plusieurs types d'évènements par mois, il y en a pour tous les goûts et 
+      pour tous les âges. 
       </h2>
     </div>
   </div>
@@ -78,13 +78,14 @@
 <!-- Cards -->
 <section class="events-section">
   <h1 class="events-to-come">NOS ÉVÈNEMENTS</h1>
+
   <div class="row">
     <div class="card events-card col-lg-4 col-md-6">
       <img src="images/beach-clean-up.jpeg" />
-      <div>
-        <h3>Nettoyons nos plages</h3>
+      <div class="card-body">
+        <h3 class="card-title">Nettoyons nos plages</h3>
         <h4>Dates à venir: </h4>
-        <p>
+        <p class="card-text">
           Le monde produit environ 272 millions de tonnes métriques de déchets plastiques par an.
           Plus de 8 millions de tonnes sont rejetées dans l'océan et finissent sur les plages du monde
           entier.
@@ -97,7 +98,7 @@
     
     <div class="card events-card col-lg-4 col-md-6">
       <img src="images/marche-climat.jpeg" />
-      <div>
+      <div class="card-body">
         <h3>Marche pour le climat</h3>
         <h4>Paris, 12 Juin 2023, 14h00 </br> Place de la République</h4>
         <p>
@@ -110,7 +111,7 @@
     
     <div class="card events-card col-lg-4 col-md-6">
       <img src="images/plant-trees.jpeg" />
-      <div>
+      <div class="card-body">
         <h3>Un arbre pour un meilleur future</h3>
         <h4>Dates à venir</h4>
         <p>
@@ -122,24 +123,75 @@
   </div>
 </section>
 
+<!-- PETITIONS -->
+
 <section class="petition-section">
-  <h1 class="petitions">NOS PÉTITIONS</h1>
-  <div class="row">
+  <h1 class="petitions-title">NOS PÉTITIONS</h1>
+
+  <section class="petition-wrapper">
+      <div class="wrapper">
+        <div class="card petition-card">
+            <img class="petition-card-image" src="images/coral.jpg" alt="Massif Coraliens">
+            <div class="petition-card-infos">
+                <h1>Pétition pour la protection des massif coraliens</h1>
+                <p> Aidez nous a sauver ablbabalbal
+                </p>
+                <a href='#' class="btn petition-btn">Signez la pétition</a>
+            </div>
+        </div>
+        
+        <div class="card petition-card">
+            <img class="petition-card-image" src="images/forest.jpeg" alt="Foret Amazonienne">
+            <div class="petition-card-infos">
+                <h1>Pétition pour la sauvegarde de la foret Amazonienne</h1>
+                <p>Protegeons la foret et ses especes
+                </p>
+                <a href='#' class="btn petition-btn">Signez la pétition</a>
+            </div>
+        </div>
+        
+        
+        <div class="card petition-card">
+            <img class="petition-card-image" src="images/mountain-river.jpeg" alt="Pic de montagne et
+             rivière">
+            <div class="petition-card-infos">
+                <h1>Reduisons les effets de serres etla fonte des glace]es</h1>
+                <p>Appelons a la reduction des effets de serres des industries qui entraine la fonte
+                  des glaces
+                </p>
+                <a href='#' class="btn petition-btn">Signez la pétition</a>
+            </div>
+        </div>
+  
+        <div class="card petition-card">
+          <img class="petition-card-image" src="images/save-the-bees.jpg" alt="Pic de montagne et
+           rivière">
+          <div class="petition-card-infos">
+              <h1>Protégeons nos abeilles des pésticides</h1>
+              <p>Les pesticides font disparaitres nos abeilles des acteurs majeur de notre environment.
+              </p>
+              <a href='#' class="btn petition-btn">Signez la pétition</a>
+          </div>
+        </div>
+    </div>
+  </section>
+
+
+  <!-- <div class="row">
     <div class="card petition-card col-lg-4 col-md-6">
       <img src="images/coral.jpg" />
-      <div>
+      <div class="card-body">
         <h3>Pétition pour la protection des massif coraliens</h3>
-        <h4>Dates à venir</h4>
         <p>
           Aidez nous a sauver ablbabalbal .
         </p>
         <button>Signez la pétition</button>
       </div>
-      </div>
+    </div>
 
-      <div class="card petition-card col-lg-4 col-md-6">
-        <img src="images/coral.jpg" />
-        <div>
+    <div class="card petition-card col-lg-4 col-md-6">
+      <img src="images/coral.jpg" />
+        <div class="card-body">
           <h3>Pétition pour la protection des massif coraliens</h3>
           <h4>Dates à venir</h4>
           <p>
@@ -147,20 +199,22 @@
           </p>
           <button>Signez la pétition</button>
         </div>
-      </div>
+    </div>
 
-        <div class="card petition-card col-lg-4 col-md-6">
-          <img src="images/coral.jpg" />
-          <div>
-            <h3>Pétition pour la protection des massif coraliens</h3>
-            <h4>Dates à venir</h4>
-            <p>
-              Aidez nous a sauver ablbabalbal .
-            </p>
-            <button>Signez la pétition</button>
-          </div>
-  </div>
-</section>
+    <div class="card petition-card col-lg-4 col-md-6">
+      <img src="images/coral.jpg" />
+      <div class="card-body">
+        <h3>Pétition pour la protection des massif coraliens</h3>
+        <h4>Dates à venir</h4>
+        <p>
+          Aidez nous a sauver ablbabalbal .
+        </p>
+        <button>Signez la pétition</button>
+      </div>
+    </div>
+  </div> -->
+    
+<!-- </section> -->
   
 
 <!-- Donate Section -->
