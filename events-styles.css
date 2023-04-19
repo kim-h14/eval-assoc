@@ -92,22 +92,17 @@ h1, h2 {
   z-index: 2;
 }
 
-.events-card img:hover {
+/* .events-card img:hover {
   width: 15rem;
   height: 15rem;
   text-align: center;
 }
 .card-title:hover {
   z-index: 0;
-} 
+}  */
 
 
 /* PETITIONS */
-
- /* .petitons-card {
-  padding-bottom: 3%;
-  margin-bottom: 3%;
-} */
 
 .petitions-title {
   color: black;
@@ -143,14 +138,14 @@ h1, h2 {
   display: flex;
   align-items: flex-end;
   box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
-  transition: 0.5s ease-in-out;
+  /* transition: 0.5s ease-in-out; */
 }
 
-.petition-card:hover {
+/* .petition-card:hover {
   transform: translateY(20px);
-}
+} */
 
-.petition-card:before{
+/* .petition-card:before{
   content:"";
   position: absolute;
   top: 0;
@@ -166,7 +161,7 @@ h1, h2 {
 
 .petition-card:hover:before {
   opacity: 1;
-}
+} */
 
 .petition-card-image {
   width: 100%;
@@ -181,18 +176,20 @@ h1, h2 {
   position: relative;
   z-index: 3;
   color: #fff;
-  opacity: 0;
-  transform: translateY(30px);
-  transition: 0.5s all;
+  max-width: 100%;
+  /* opacity: 0; */
+  /* transform: translateY(30px); */
+  /* transition: 0.5s all; */
 }
 
-.petition-card-infos:hover {
+/* .petition-card-infos:hover {
   opacity: 1;
   transform: translateY(0px);
-}
+} */
 
-.petition-card-infos h1 {
+.petition-card-infos h2 {
   margin: 0;
+  padding: 2rem 0.5rem 1rem;
 }
 
 .petition-card-infos p {
@@ -200,6 +197,59 @@ h1, h2 {
   font-size: 15px;
   margin-top:8px;
   margin-bottom: 20px;
+  padding-left: 0.5rem;
+}
+
+@media screen and (max-width: 320px){
+
+}
+  
+
+@media (hover) {
+  .petition-card{
+    transition: 0.5s ease-in-out;
+  }
+
+  .petition-card:hover {
+    transform: translateY(20px);
+  }
+  
+  .petition-card:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 176, 155, 0.5), rgba(150, 201, 61,1));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+  }
+  
+  .petition-card:hover:before {
+    opacity: 1;
+  }
+
+  .petition-card-infos {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+  }
+
+  .petition-card-infos:hover {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  .petition-btn {
+    transition: 0.4 ease-in-out;
+  }
+
+  .petition-btn:hover {
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+  }
 }
 
 .petition-btn {
@@ -210,12 +260,16 @@ h1, h2 {
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
-  transition: 0.4 ease-in-out;
+  margin-left: 0.5rem;
+  /* transition: 0.4 ease-in-out; */
+  position: relative;
 }
 
-.petition-btn:hover {
+
+
+/* .petition-btn:hover {
   box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
-}
+} */
 
 
 /* Donate Section */
