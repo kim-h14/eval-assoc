@@ -146,7 +146,6 @@ figure figcaption h3 {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
@@ -154,7 +153,6 @@ figure figcaption h3 {
 }
 
 .wrapper {
-  /* display: flex; */
   width: 100%;
   justify-content: space-around;
 }
@@ -183,6 +181,7 @@ figure figcaption h3 {
   z-index: 3;
   color: #fff;
   max-width: 100%;
+  max-height: 100%;
 }
 
 .petition-card-infos h2 {
@@ -198,9 +197,26 @@ figure figcaption h3 {
   padding-left: 0.5rem;
 }
 
+.petition-btn {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  position: relative;
+}
 
 @media screen and (max-width: 320px){
+  .petition-card {
+    height: fit-content;
+  }
 
+  .petition-btn {
+    margin-bottom: 5%;
+  }
 }
   
 /* Petition cards effect for desktop and other screen that allow hover effect. */
@@ -250,20 +266,6 @@ figure figcaption h3 {
     box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
   }
 }
-
-.petition-btn {
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  background: #fff;
-  color: #000;
-  font-size: 14px;
-  font-weight: bold;
-  cursor: pointer;
-  margin-left: 0.5rem;
-  position: relative;
-}
-
-
 
 /* Donate Section */
 
