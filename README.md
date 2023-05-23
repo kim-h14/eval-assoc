@@ -24,7 +24,7 @@ Lors de la réalisation de ce projet j'ai mis en oeuvre d'utiliser une variété
 afin de rendre le site plus attrayant.
 
 
-### Languages et Frameworks
+### Langages et Frameworks
 ***
 
 \- HTML
